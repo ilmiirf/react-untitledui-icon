@@ -1,0 +1,18 @@
+# Ignore source files
+src/
+
+# Ignore development scripts
+convert-svgs.js
+
+# Ignore configuration files
+tsconfig.json
+.eslintrc
+.prettierrc
+
+# Ignore test files
+__tests__/
+*.test.js
+
+# Ignore unnecessary files
+.DS_Store
+node_modules/

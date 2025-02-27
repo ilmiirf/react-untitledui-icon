@@ -1,0 +1,37 @@
+{
+  "name": "untitledui-icons-react",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-svgs": "node convert-svgs.js",
+     "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "ilmi",
+  "license": "MIT",
+  "peerDependencies": {
+    "@types/react": ">=17.0.0",
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@svgr/cli": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@types/react": "^19.0.10",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
